@@ -5,7 +5,7 @@ public class ResolutionDemo {
 	public void m1(Object obj) {
 		
 		
-		System.out.println("object version");
+		System.out.println("Object version");
 		
 		
 		
