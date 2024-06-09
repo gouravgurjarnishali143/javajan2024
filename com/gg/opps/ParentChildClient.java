@@ -1,25 +1,18 @@
 package com.gg.opps;
 
 public class ParentChildClient {
-
+	
 	public static void main(String[] args) {
 		
-		//case 1
-		Parent parent1 = new Parent();
+		Parent p1 =new Parent();
+		p1.m1();
 		
-		parent1.m1();
-		
-		//case 2
-		
-		Child child1 = new Child();
-		
-		child1.m2();
-		
-		//case 3
-		Parent parent2 = new Child();
-		
-		parent2.m1();
-		
-		
+		Child c1= new Child();
+		c1.m2();
+         c1.m1();
+         
+         Parent p2 = new Child();
+         p2.m1();
 	}
+
 }

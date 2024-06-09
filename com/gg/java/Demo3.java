@@ -8,7 +8,7 @@ public class Demo3 {
 			
 			for(int p=1;p<=i;p++) {
 				
-				System.out.print(p);
+				System.out.print("p");
 			}
 			System.out.println();
 		}
